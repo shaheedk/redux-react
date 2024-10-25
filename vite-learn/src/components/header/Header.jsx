@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
-import AfterCart from '../productList/cartButton/AfterCart'
-import BeforeCart from '../productList/cartButton/BeforeCart'
+
 function Header() {
   return (
     <header>
