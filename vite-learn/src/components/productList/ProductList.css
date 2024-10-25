@@ -45,7 +45,7 @@ section {
     bottom: -90px;
     left: -90px;
     background-color: var(--bg-circles);
-    border-radius: 50%;
+    border-radius: 20%;
     transition: var(--transition);
 }
 
