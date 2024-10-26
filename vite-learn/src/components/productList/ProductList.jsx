@@ -7,8 +7,9 @@ import AfterCart from './cartButton/AfterCart';
 export default function ProductList() {
   const [count,setCount]=useState(0)
   const addToCart=()=>{
-    setCount(count+1)
+    setCount(1)
   }
+  console.log(count)
   return (
     <section className="container">
       {Products?.map((product, key) => (
