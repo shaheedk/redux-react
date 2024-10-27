@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./ProductList.css";
 import Products from "../../api/Products.json";
 import BeforeCart from "./cartButton/BeforeCart";
@@ -9,8 +9,14 @@ export default function ProductList() {
   const addToCart = () => {
     setCount(1);
   };
+  useEffect(()=>{
+    console.log('render')
+    return ()=>{
+      console.log('Un Mount')
+    }
+  },[third])
   console.log(count);
-  
+
   return (
     <section className="container">
    {Products?.map((product, key) => (
