@@ -15,7 +15,7 @@ export default function ProductList() {
       console.log('Un Mount')
     }
   })
-  // console.log(count);
+  console.log(count);
 
   return (
     <section className="container">
@@ -23,8 +23,7 @@ export default function ProductList() {
         <div className="product-container" key={key}>
           <img src={product?.image} alt="" />
           <h3>{product?.title}</h3>
-          <BeforeCart addToCart={addToCart} />
-          <AfterCart />
+        {count >0 ?   <AfterCart />: <BeforeCart addToCart={addToCart} />}
         </div>
       ))}
     </section>
