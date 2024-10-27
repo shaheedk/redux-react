@@ -10,6 +10,7 @@ export default function ProductList() {
     setCount(1);
   };
   console.log(count);
+  
   return (
     <section className="container">
    {Products?.map((product, key) => (

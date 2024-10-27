@@ -1,6 +1,5 @@
 import React from 'react';
 import './cartButtons.css';
-
 function AfterCart() {
   return (
     <div className="after-cart">
@@ -9,5 +8,4 @@ function AfterCart() {
     </div>
   );
 }
-
 export default AfterCart;
