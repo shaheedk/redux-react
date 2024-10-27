@@ -14,8 +14,8 @@ export default function ProductList() {
     return ()=>{
       console.log('Un Mount')
     }
-  },[third])
-  console.log(count);
+  })
+  // console.log(count);
 
   return (
     <section className="container">
