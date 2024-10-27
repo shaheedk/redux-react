@@ -12,7 +12,7 @@ export default function ProductList() {
   console.log(count);
   return (
     <section className="container">
-      {Products?.map((product, key) => (
+   {Products?.map((product, key) => (
         <div className="product-container" key={key}>
           <img src={product?.image} alt="" />
           <h3>{product?.title}</h3>
