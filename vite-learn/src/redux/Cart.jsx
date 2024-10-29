@@ -1,4 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
+
   const INITIAL_STATE={
 cartList:[],
 cartCount:0
@@ -18,3 +19,5 @@ decrement:()=>{
 }
 }
 })
+export const {increment,decrement,addToCart} =cartSlice.actions
+export default createSlice.reducer;
