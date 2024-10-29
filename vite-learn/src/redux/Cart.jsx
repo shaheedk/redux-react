@@ -1,12 +1,9 @@
-//1.provider
-//2.Store
-//3.Reducer
-//4.Action
-
-// Store
-//Action =Button Click
-//Reducer=>State Update
-//Provider=> React
-
 import {createSlice} from '@reduxjs/toolkit'
-  
+  const INITIAL_STATE={
+cartList:[]
+  }
+const cartSlice=createSlice({
+    name:'cart',
+    initialState:INITIAL_STATE
+
+})
