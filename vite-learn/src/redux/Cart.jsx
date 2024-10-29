@@ -4,6 +4,16 @@ cartList:[]
   }
 const cartSlice=createSlice({
     name:'cart',
-    initialState:INITIAL_STATE
+    initialState:INITIAL_STATE,
+reducers:{
+    addToCart: ()=>{
 
+    },
+    increment:()=>{
+
+    },
+decrement:()=>{
+
+}
+}
 })
