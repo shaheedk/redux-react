@@ -1,19 +1,20 @@
 import {createSlice} from '@reduxjs/toolkit'
   const INITIAL_STATE={
-cartList:[]
+cartList:[],
+cartCount:0
   }
 const cartSlice=createSlice({
     name:'cart',
     initialState:INITIAL_STATE,
 reducers:{
-    addToCart: ()=>{
-
+    addToCart: (state)=>{
+state.cartCount=1
     },
     increment:()=>{
-
+        state.cartCount+=1
     },
 decrement:()=>{
-
+    state.cartCount -=1
 }
 }
 })
