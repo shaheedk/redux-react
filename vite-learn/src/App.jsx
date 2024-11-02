@@ -5,7 +5,7 @@ import ProductList from "./components/productList/ProductList";
 function App() {
    return (
       <div>
-         <Header />
+         <Header/> 
          <ProductList />
       </div>
    );
