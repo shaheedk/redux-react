@@ -23,5 +23,5 @@ const cartSlice = createSlice({
 });
 
 export const { increment, decrement, addToCart } = cartSlice.actions;
-export default cartSlice.reducer;  // Corrected export here
+export default cartSlice.reducer;  // Corrected export 
 
