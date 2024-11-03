@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
   const [count, setCount] = useState(0);
   console.log(cartCount,'===cart')
   const addToCart = () => {
-    setCount(1);
+     setCount(1);
   };
 
   useEffect(()=>{
