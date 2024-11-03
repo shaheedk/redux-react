@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 
  function ProductList() {
-  const cart=useSelector((state)=>state.cart)
+  const {cartCount}=useSelector((state)=>state.cart)
 
   const [count, setCount] = useState(0);
   console.log(cart ,'===cart')
