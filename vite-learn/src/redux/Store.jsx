@@ -1,7 +1,8 @@
 // store cant pass multiple time .only one time 
-import { configureStore } from "@testing-library/react";
+import { configureStore } from '@reduxjs/toolkit';
+
 import cartReducer from './Cart'
-const store=configureStore({
+export const store=configureStore({
     reducer:{
         cart: cartReducer,
 

@@ -3,12 +3,18 @@ import "./ProductList.css";
 import Products from "../../api/Products.json";
 import BeforeCart from "./cartButton/BeforeCart";
 import AfterCart from "./cartButton/AfterCart";
+import { useSelector } from "react-redux";
 
-export default function ProductList() {
+
+ function ProductList() {
+  const cart=useSelector((state)=>state.cart)
+
   const [count, setCount] = useState(0);
+  console.log(count ,'===count')
   const addToCart = () => {
     setCount(1);
   };
+
   useEffect(()=>{
     console.log('render')
     return ()=>{
@@ -30,3 +36,4 @@ export default function ProductList() {
     </section>
   );
 }
+export default ProductList;
