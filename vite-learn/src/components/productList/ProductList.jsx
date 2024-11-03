@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
   const cart=useSelector((state)=>state.cart)
 
   const [count, setCount] = useState(0);
-  console.log(count ,'===count')
+  console.log(cart ,'===cart')
   const addToCart = () => {
     setCount(1);
   };
