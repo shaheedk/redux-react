@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div className="container">
-        <h2>Redux </h2>
+        <h2 className="text-teal-600">show case</h2>
 
         <svg
           width="24px"

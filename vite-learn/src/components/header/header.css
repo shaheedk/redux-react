@@ -7,4 +7,7 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+} 
+h2{
+    color: rgb(4, 255, 255);
 }
