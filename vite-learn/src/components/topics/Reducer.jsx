@@ -5,6 +5,7 @@ function Reducer() {
     <div>
       <button>+</button>
       <button>-</button>
+    
       <button>reset</button>
     </div>
   )
