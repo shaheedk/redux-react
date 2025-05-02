@@ -1,11 +1,13 @@
-import Header from "./components/header/Header";
-import Reducer from "./components/topics/Reducer";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainC from "./components/MainC";
 
 function App() {
   return (
     <div>
       <Header/>
- <Reducer/>
+      <MainC />
+      <Footer/>
     </div>
   );
 }

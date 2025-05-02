@@ -1,25 +1,54 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-*{
-    margin: 0;
-   box-sizing: border-box;
- padding: 0;
-    font-family: "Roboto", "Helvetica Neue", "sans-serif";
-    /* background-color: #1e1e2f; */    
-  
-}
-body{
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: "Roboto", "Helvetica Neue", "sans-serif";
-    /* background-color: #1e1e2f; */
-}
-/* .container{
-    max-width: 1400px;
+  }
+  
+  /* Header */
+  .header {
+    padding: 20px;
+    border: 2px dashed blue;
+    text-align: center;
+  }
+  
+  /* Footer */
+  .footer {
     width: 100%;
-    margin: auto;
-    padding: 0 20px;
-} */
-
+    border-top: 2px solid purple;
+ 
+    /* color: white; */
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* Main Content Layout */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px dashed blue;
+    margin: 20px;
+  }
+  
+  /* Counter and Aside styles */
+  .counter, .aside {
+    flex: 1;
+    border: 2px dashed green;
+    margin: 0 10px;
+    padding: 20px;
+  }
+  
+  /* Counter Buttons */
+  .counter button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Aside Button */
+  .aside button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
